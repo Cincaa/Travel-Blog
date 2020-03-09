@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title> Travel blog </title>
+	<meta charset="UTF-8">
+  <!--<base href="https://www.w3schools.com/" target="_blank">-->
+	<link rel="stylesheet" type="text/css" href="CSS/generator.css" >
+  <script src="JS/generator.js"> </script>
+  <style>
+#myDiv, #myDiv2{
+  background-color: coral;
+  border: 1px solid;
+  padding: 50px;
+}
+</style>
+ </head>
+<body>
+
+<header>
+  <h2 id="title">Travel blog</h2>
+</header>
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="search.html">Flight Search & Utilities</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Descover a city</a>
+    <div class="dropdown-content">
+      <a href="london.html">London</a>
+      <a href="manila.html">Manila</a>
+      <a href="cusco.html">Cusco</a>
+    </div>
+  </li>
+  <li><a href="generator.html">Quiz</a></li>
+</ul>
+</nav>
+<body>
+<div id="quiz"></div>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+
+<p id="data"></p>
+<a href="http://localhost:7000/"> Click here for answers</a>
+<!--
+<button onclick="myStopFunction()">Stop Alert</button>
+
+<div id="myDiv">
+  <p id="myP">Bubbling.</p>
+</div><br>
+
+<div id="myDiv2">
+  <p id="myP2">Capturing.</p>
+</div>
+
+<form>
+  <label for="id-checkbox">Apasa aici daca exista vreo posibiliatate sa folosesti preventDefault() cu sens:</label>
+  <input type="checkbox" id="id-checkbox"/>
+</form>
+-->
+<div id="output-box"></div>
+</body>
+</html>
